@@ -3,7 +3,7 @@ resource "aws_db_instance" "mydb" {
   storage_type         = "gp2"
   engine               = "mysql"
   engine_version       = "8.0"
-  instance_class       = "db.t2.micro"   # Pour Free Tier 100%
+  instance_class       = "db.t3.micro"   # Pour Free Tier 100%
   db_name              = "mydatabase"
   username             = "admin"
   password             = "Lejeune200$"
