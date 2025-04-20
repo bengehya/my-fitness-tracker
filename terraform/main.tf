@@ -1,12 +1,8 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
-    }
-  }
+resource "aws_s3_bucket" "test_bucket" {
+  bucket = "my-test-bucket-${random_id.bucket_id.hex}"
+  force_destroy = true
 }
 
-provider "aws" {
-  region = "us-east-1"
+resource "random_id" "bucket_id" {
+  byte_length = 4
 }
