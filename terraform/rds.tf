@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 resource "aws_db_instance" "mydb" {
   allocated_storage    = 20
   storage_type         = "gp2"
