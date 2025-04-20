@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Heart Shape -->
+    <path
+        android:fillColor="@color/new_primary_variant"
+        android:pathData="M12,21.35l-1.45,-1.32c-5.13,-4.58 -8.55,-7.29 -8.55,-11.53 0,-3.54 2.91,-6.43 6.43,-6.43 2.13,0 4.08,1.17 5.07,3.03C12.95,4.4 14.9,3.23 17.03,3.23 20.55,3.23 23.46,6.14 23.46,9.67c0,4.24 -3.4,6.95 -8.54,11.53L12,21.35z" />
+
+    <!-- Pulse Line inside the Heart -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M7,12l2,-2 3,4 4,-5 2,7"/>
+</vector>

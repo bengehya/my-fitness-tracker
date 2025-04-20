@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track Your Fitness"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/option_log_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/new_primary_variant"
+        android:text="Log Food"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/option_track_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/new_primary_variant"
+        android:text="Track Sleep"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/option_track_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/new_primary_variant"
+        android:text="Track Weight"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

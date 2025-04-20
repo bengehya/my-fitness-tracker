@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FitnesstrackingCompany.Splash" parent="Theme.SplashScreen">
+        <!-- Background color for the splash screen -->
+        <item name="windowSplashScreenBackground">@color/black</item>
+
+        <!-- Optional: You can provide an icon that will animate when the app is launched -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/fitness</item> <!-- Replace with your icon resource -->
+
+        <!-- Post splash theme -->
+        <item name="postSplashScreenTheme">@style/Theme.FitnesstrackingCompany</item>
+    </style>
+</resources>

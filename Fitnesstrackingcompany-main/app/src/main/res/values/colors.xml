@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fab_gradient_start">#FF4081</color>
+    <color name="fab_gradient_end">#FFC107</color>
+    <color name="fab_background">#FFFFFF</color>
+    <color name="new_primary">#FF5733</color>
+    <color name="new_primary_variant">#3F51B5</color>
+</resources>
